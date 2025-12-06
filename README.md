@@ -2,34 +2,23 @@
 
 >> Note: This project is a fork of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
 
-**IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie, TV and Episode pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
+**IMDb RePo** is a lightweight, dependency-free userscript that adds links to movie, TV and Season pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
 ---
 
 ## 🚀 Features
 
-- 🟡 **Native IMDb-Style Buttons**  
-  Blends seamlessly with IMDb’s own UI.
-
-- 🎬 **One-Click Redirects**  
-  - On Movie pages → `https://111movies.com/movie/{IMDb-ID}`  
-  - On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`  
-    - You can even prefill **season** and **episode** before clicking (or just hit Enter)!
-  - On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
-    - Automatically finds the Series ID and constructs the link!
+- 🎬 **One-Click Redirects**
+  - Automatically finds the ID and constructs the link!  
+    - On Movie pages → `https://111movies.com/movie/{TMDB-ID}`  
+    - On TV Show pages → `htps://111movies.com/tv/{TMDB-ID}/1/1`  
+    - On Season pages → `https://111movies.com/tv/{TMDB-ID}/S/E`
 
 - ⚡ **Instant Load**  
   Buttons appear before the full page finishes loading.
 
 - 🧩 **Tiny & Readable**  
   Fully self-contained. No dependencies. Easy to tweak.
-
-- **Multiple Tweaks for 111Movies**
-  - Remove Player Gradient
-  - Hide Server
-  - Hide Cursor
-  - Add Page Title
-  - Add Page Favicon
 
 ---
 
@@ -42,15 +31,11 @@
    >> *Firefox + Violentmonkey are recommended because they are both Free and Open-Source. However, neither is available on Chromium. On Chromium, the proprietary Tampermonkey extension is recommended.*
 
 2. **Install the Script** (choose one way, listed easiest to hardest)  
-   - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
+   - Click [here](https://github.com/NikoboiNFTB/TMDB-RePo/raw/refs/heads/main/tmdb-repo-1.0.user.js) and install when prompted.  
    - Copy-paste all code into a new userscript.  
    - Or download the `.user.js` file manually and import it.
 
-3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-autorepo-6.1.user.js)
-     - Not recommended for watching a specific episode of a series, or in general, really.
-
-4. **Done. Enjoy.**
+3. **Done. Enjoy.**
 
 >> **Chrome / Edge / Brave Users:**  
 >> Make sure Tampermonkey can actually *run* userscripts:  
@@ -83,13 +68,9 @@
 
 ## 💡 How to Use
 
-1. Open any **IMDb movie**, **TV Show** or **Episode** page.  
-2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*;  
-   - **Watch** → Hit **Go** to redirect to **111Movies**  
-3. For TV shows, optionally enter:  
-   - **Season (S)**  
-   - **Episode (E)**  
-   - Defaults to `1/1` if blank  
+1. Open any **Movie**, **TV Show** or **Season** page on TMDB.  
+2. A new button appears next to *Play trailer/clip/featurette* or in case of Season pages, next to the episode's *Title*;  
+   - **Watch** → Hit **Watch** to redirect to **111Movies**  
 
 ---
 
@@ -105,7 +86,6 @@
 
 - Created by **Nikoboi**  
 - Script logic fine-tuned with **ChatGPT**  
-- Styling inspired by IMDb’s native interface  
 
 ---
 
@@ -115,6 +95,6 @@ Released under the **GPLv3 License**
 
 ## ⚖️ Legal Disclaimer
 
-IMDb RePo is a redirecting tool to a external content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.  
+TMDB RePo is a redirecting tool to a external content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.  
 
-IMDb RePo is an independent project and is not affiliated with, endorsed by, or in any way connected to IMDb.com or 111Movies.com. IMDb and 111Movies are trademarks of their respective owners, and all rights to these trademarks are acknowledged. The use of these names and references is for descriptive purposes only.
+TMDB RePo is an independent project and is not affiliated with, endorsed by, or in any way connected to themoviedatabase.org or 111Movies.com. IMDb and 111Movies are trademarks of their respective owners, and all rights to these trademarks are acknowledged. The use of these names and references is for descriptive purposes only.
