@@ -79,15 +79,15 @@
 
 # Movie Pages
 
-![Movies](/TMDB-RePo/assets/movie.png)
+![Movies](/assets/movie.png)
 
 # TV Pages
 
-![TV](/TMDB-RePo/assets/tv.png)
+![TV](/assets/tv.png)
 
 # Season Pages
 
-![Season](/TMDB-RePo/assets/season.png)
+![Season](/assets/season.png)
 
 ---
 
