@@ -74,6 +74,23 @@
 
 ---
 
+## 🔎 Where the buttons are
+>> Because they are *tiny*
+
+# Movie Pages
+
+![Movies](/TMDB-RePo/assets/movie.png)
+
+# TV Pages
+
+![TV](/TMDB-RePo/assets/tv.png)
+
+# Season Pages
+
+![Season](/TMDB-RePo/assets/season.png)
+
+---
+
 ## ⚠️ Limitations
 
 - Doesn’t check if the content actually exists
