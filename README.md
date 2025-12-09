@@ -37,7 +37,7 @@
 
 3. **Done. Enjoy.**
 
->> **Chrome / Edge / Brave Users:**  
+>> **Chromium Users:**  
 >> Make sure Tampermonkey can actually *run* userscripts:  
 >> - Go to `chrome://extensions/` (or equivalent)  
 >> - Click **Details** under Tampermonkey  
