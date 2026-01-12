@@ -1,6 +1,6 @@
 # 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
->> Note: This project is a fork of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
+>> Note: This project is technically a port of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds links to movie, TV and Season pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
