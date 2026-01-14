@@ -1,117 +1,100 @@
-# 🎬 IMDb RePo: Simple & Fast Redirect Portal
+# TMDb RePo: Simple & Fast Redirect Portal
 
->> Note: This project is technically a port of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
+>> This project is technically a port of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
 
-**IMDb RePo** is a lightweight, dependency-free userscript that adds links to movie, TV and Season pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
+Simple and Fast Redirect Portal, adds quick and easy way to access your favorite movies and TV-shows directly from the TMDb website.
 
----
+## Description
 
-## 🚀 Features
+**TMDb RePo** is a lightweight, dependency-free userscript that adds links to movie, TV and Season pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
-- 🎬 **One-Click Redirects**
-  - Automatically finds the ID and constructs the link!  
-    - On Movie pages → `https://111movies.com/movie/{TMDB-ID}`  
-    - On TV Show pages → `htps://111movies.com/tv/{TMDB-ID}/1/1`  
-    - On Season pages → `https://111movies.com/tv/{TMDB-ID}/S/E`
+### Features
 
-- ⚡ **Instant Load**  
-  Buttons appear before the full page finishes loading.
+- One-Click Redirects
+- Automatically finds the ID and constructs the link!
+  - On Movie pages → `https://111movies.com/movie/{TMDB-ID}`
+  - On TV Show pages → `htps://111movies.com/tv/{TMDB-ID}/1/1`
+  - On Season pages → `https://111movies.com/tv/{TMDB-ID}/S/E`
+- Lightweight, dependency-free and portable! Works on most browsers!
 
-- 🧩 **Tiny & Readable**  
-  Fully self-contained. No dependencies. Easy to tweak.
+## Installation
 
----
+### 1. Install a Userscript Manager
 
-## 🛠 Installation
+- Recommended: Firefox + Violentmonkey
+  - Fully Free and Open-Source, simpler setup, install screen shows notable permissions.
+- [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+- [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-1. **Install a Userscript Manager**  
-   Recommended: Firefox + Violentmonkey  
-   - [Violentmonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)  
-   - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
-   >> *Firefox + Violentmonkey are recommended because they are both Free and Open-Source. However, neither is available on Chromium. On Chromium, the proprietary Tampermonkey extension is recommended.*
+### 2. Install the Script
 
-2. **Install the Script** (choose one way, listed easiest to hardest)  
-   - Click [here](https://github.com/NikoboiNFTB/TMDB-RePo/raw/refs/heads/main/tmdb-repo-1.0.user.js) and install when prompted.  
-   - Copy-paste all code into a new userscript.  
-   - Or download the `.user.js` file manually and import it.
+- choose one way, listed most to least convenient:
+  - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
+  - Copy-paste all code into a new userscript.
+  - Or download the [`.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/imdb-repo-6.1.user.js) file manually and import it (why would you do this?).
 
-3. **Done. Enjoy.**
+### 3. Firefox users, you're done, enjoy!
 
->> **Chromium Users:**  
->> Make sure Tampermonkey can actually *run* userscripts:  
->> - Go to `chrome://extensions/` (or equivalent)  
->> - Click **Details** under Tampermonkey  
->> - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
->> - Re-open the IMDb tab. Reloading wasn't enough in my testing.
->>   - Yes, this is a bit annoying, and yes, it's Chromium's fault, and no, I can't fix this.
+### 4. Chromium users:
 
-## **Recommended 111Movies Tweaks**  
+You will need to enable running scripts in Tampermonkey settings:
 
-   - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-gradient-1.0.user.js)  
-     Removes the persistent shadow overlay on the player.  
+1. Go to `chrome://extensions/`
+2. Click **Details** under Tampermonkey
+3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+4. Re-open the TMDb tab. Reloading it wasn't enough in my testing.
 
-   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-server-1.2.user.js)  
-     Hides the server button along with the rest of the Player UI.
+## How To Use
 
-   - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-cursor-1.2.user.js)  
-     Hides the cursor with the rest of the Player GUI when not hovering over player controls.  
-     - Brute force, but works. Contributions for a more elegant solution are welcome.
+1. Open any **Movie**, **TV Show** or **Season** page on TMDB.
+2. A new button appears next to *Play trailer*, *Clip* or *Featurette* or in case of Season pages, next to the episode's *Title*;
+  - **Watch** → Hit **Watch** to redirect to **111Movies**
 
-   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-title-1.2.user.js)  
-     Add a page title based on IMDb ID.
-     - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
+### Where the buttons are
+They are *tiny*!
 
-   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-favicon-1.2.user.js)  
-     Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
-
----
-
-## 💡 How to Use
-
-1. Open any **Movie**, **TV Show** or **Season** page on TMDB.  
-2. A new button appears next to *Play trailer/clip/featurette* or in case of Season pages, next to the episode's *Title*;  
-   - **Watch** → Hit **Watch** to redirect to **111Movies**  
-
----
-
-## 🔎 Where the buttons are
->> Because they are *tiny*
-
-# Movie Pages
+#### Movie Pages
 
 ![Movies](/assets/movie.png)
 
-# TV Pages
+#### TV Pages
 
 ![TV](/assets/tv.png)
 
-# Season Pages
+#### Season Pages
 
 ![Season](/assets/season.png)
 
----
+## **Recommended 111Movies Tweaks**
 
-## ⚠️ Limitations
+#### [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-gradient-1.0.user.js)
+- Removes the persistent shadow overlay on the player.
 
-- Doesn’t check if the content actually exists
-  - Though it usually does, new releases are usually available within a day or two.  
-- Redirect domain is hardcoded to `111movies.com` (feel free to fork and change it).
+#### [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-server-1.2.user.js)
+- Hides the server button along with the rest of the Player UI.
 
----
+#### [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-cursor-1.2.user.js)
+- Hides the cursor with the rest of the Player GUI when not hovering over player controls.
+- Brute force, but works. Contributions for a more elegant solution are welcome.
 
-## 🤝 Credits
+#### [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-title-1.2.user.js)
+- Add a page title based on IMDb ID.
+- For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-- Created by **Nikoboi**  
-- Script logic fine-tuned with **ChatGPT**  
+#### [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)
+- Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
----
+## Credits
 
-## 📜 License
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**  
+Script logic fine-tuned with **ChatGPT**
 
-Released under the **GPLv3 License**
+## License
 
-## ⚖️ Legal Disclaimer
+This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
 
-TMDB RePo is a redirecting tool to a external content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.  
+## Legal Disclaimer
 
-TMDB RePo is an independent project and is not affiliated with, endorsed by, or in any way connected to themoviedatabase.org or 111Movies.com. IMDb and 111Movies are trademarks of their respective owners, and all rights to these trademarks are acknowledged. The use of these names and references is for descriptive purposes only.
+TMDB RePo is a redirecting tool to a external content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.
+
+TMDB RePo is an independent project and is not affiliated with, endorsed by, or in any way connected to themoviedatabase.org or 111Movies.com. TMDb and 111Movies are trademarks of their respective owners, and all rights to these trademarks are acknowledged. The use of these names and references is for descriptive purposes only.
