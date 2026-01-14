@@ -84,6 +84,10 @@ They are *tiny*!
 #### [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)
 - Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
+## Contributing
+
+Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.
+
 ## Credits
 
 Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**  
