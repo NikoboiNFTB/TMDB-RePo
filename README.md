@@ -29,9 +29,9 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 ### 2. Install the Script
 
 - choose one way, listed most to least convenient:
-  - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
+  - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo.user.js) and install when prompted.
   - Copy-paste all code into a new userscript.
-  - Or download the [`.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/imdb-repo-6.1.user.js) file manually and import it (why would you do this?).
+  - Or download the [`.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/imdb-repo.user.js) file manually and import it (why would you do this?).
 
 ### 3. Firefox users, you're done, enjoy!
 
@@ -67,21 +67,21 @@ They are *tiny*!
 
 ## **Recommended 111Movies Tweaks**
 
-#### [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-gradient-1.0.user.js)
+#### [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/gradient.user.js)
 - Removes the persistent shadow overlay on the player.
 
-#### [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-server-1.2.user.js)
+#### [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/server.user.js)
 - Hides the server button along with the rest of the Player UI.
 
-#### [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-cursor-1.2.user.js)
+#### [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/cursor.user.js)
 - Hides the cursor with the rest of the Player GUI when not hovering over player controls.
 - Brute force, but works. Contributions for a more elegant solution are welcome.
 
-#### [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-title-1.2.user.js)
+#### [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/title.user.js)
 - Add a page title based on IMDb ID.
 - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-#### [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)
+#### [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/favicon.user.js)
 - Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 ## Contributing
@@ -90,7 +90,8 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 ## Credits
 
-Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**  
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+
 Script logic fine-tuned with **ChatGPT**
 
 ## License
