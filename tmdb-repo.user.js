@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         TMDB RePo: Simple and Fast Redirect Portal
 // @namespace    https://github.com/NikoboiNFTB/TMDB-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/TMDB-RePo/raw/refs/heads/main/tmdb-repo.user.js
 // @version      1.0
 // @author       Nikoboi
 // @description  Adds 111movies links to movies, shows, and season episodes on TMDB.
