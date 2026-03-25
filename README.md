@@ -102,7 +102,7 @@ Script logic fine-tuned using [**ChatGPT**](https://chatgpt.com/)
 
 ## License
 
-This project is licenced under the GNU General Public License V3. See [LICENSE](/LICENSE) for details.
+This project is licensed under the GNU General Public License V3. See [LICENSE](/LICENSE) for details.
 
 ## Legal Disclaimer
 
