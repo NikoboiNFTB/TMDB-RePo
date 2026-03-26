@@ -50,9 +50,11 @@ You will need to enable running scripts in Tampermonkey settings:
 2. A new button appears next to _Play trailer_, _Clip_ or _Featurette_ or in case of Season pages, next to the episode's _Title_;
    - **Watch** → Hit **Watch** to redirect to **111Movies**
 
-<details><summary>
+<details>
 
-  ### Screenshots
+<summary>
+
+### Screenshots
 
 </summary>
 
