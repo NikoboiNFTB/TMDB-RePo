@@ -1,6 +1,6 @@
 # TMDb RePo: Simple & Fast Redirect Portal
 
-> > This project is technically a port of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
+> This project is technically a port of [IMDb RePo](https://github.com/NikoboiNFTB/IMDb-RePo).
 
 Simple and Fast Redirect Portal, adds quick and easy way to access your favorite movies and TV-shows directly from the TMDb website.
 
@@ -12,9 +12,9 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 - One-Click Redirects
 - Automatically finds the ID and constructs the link!
-  - On Movie pages → `https://111movies.com/movie/{TMDB-ID}`
-  - On TV Show pages → `htps://111movies.com/tv/{TMDB-ID}/1/1`
-  - On Season pages → `https://111movies.com/tv/{TMDB-ID}/S/E`
+    - On Movie pages → `https://111movies.com/movie/{TMDB-ID}`
+    - On TV Show pages → `https://111movies.com/tv/{TMDB-ID}/1/1`
+    - On Season pages → `https://111movies.com/tv/{TMDB-ID}/S/E`
 - Lightweight, dependency-free and portable! Works on most browsers!
 
 ## Installation
@@ -22,16 +22,16 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 ### 1. Install a Userscript Manager
 
 - Recommended: Firefox + Violentmonkey
-  - Fully Free and Open-Source, simpler setup, install screen shows notable permissions.
+    - Fully Free and Open-Source, simpler setup, install screen shows notable permissions.
 - [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 - [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 ### 2. Install the Script
 
 - choose one way, listed most to least convenient:
-  - Click [here](https://github.com/NikoboiNFTB/TMDB-RePo/raw/refs/heads/main/tmdb-repo.user.js) and install when prompted.
-  - Copy-paste all code into a new userscript.
-  - Or download the [`.user.js`](https://github.com/NikoboiNFTB/TMDB-RePo/blob/main/tmdb-repo.user.js) file manually and import it (why would you do this?).
+    - Click [here](https://github.com/NikoboiNFTB/TMDB-RePo/raw/refs/heads/main/tmdb-repo.user.js) and install when prompted.
+    - Copy-paste all code into a new userscript.
+    - Or download the [`.user.js`](https://github.com/NikoboiNFTB/TMDB-RePo/blob/main/tmdb-repo.user.js) file manually and import it (why would you do this?).
 
 ### 3. Firefox users, you're done, enjoy!
 
@@ -48,7 +48,7 @@ You will need to enable running scripts in Tampermonkey settings:
 
 1. Open any **Movie**, **TV Show** or **Season** page on TMDB.
 2. A new button appears next to _Play trailer_, _Clip_ or _Featurette_ or in case of Season pages, next to the episode's _Title_;
-   - **Watch** → Hit **Watch** to redirect to **111Movies**
+    - **Watch** → Hit **Watch** to redirect to **111Movies**
 
 <details>
 
